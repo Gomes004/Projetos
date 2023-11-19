@@ -157,3 +157,10 @@ opacity: 0.6;
 .ie:hover {
 	opacity: 0.8;
 }
+.logo{
+	max-width: 100%;
+}
+
+.text{
+	max-width: 100%;
+}
