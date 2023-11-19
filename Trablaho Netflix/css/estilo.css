@@ -1,0 +1,159 @@
+body {
+	background-color: rgb(10, 10, 10);
+}
+
+.preto {
+	background-color: rgb(0, 0, 0);
+}
+
+.im:hover{
+opacity: 0.6;
+}
+
+#io {
+	top: 0;
+	z-index: 2;
+}
+
+#io button.color {
+	background: #ffffff91;
+	
+}
+
+
+
+.f1 {
+	color: rgb(255, 255, 255);
+	padding-left: 0px;
+	padding-top: 12px;
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.f1:hover {
+	text-decoration: underline;
+}
+
+#capa {
+	height: 570px;
+	background-image: url("../img/vl2.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	z-index: 1;
+	display: inline-block;
+}
+
+#capa_infos {
+	padding: 0;
+	margin-top: 0px;
+	z-index: 3;
+	position: relative;
+	background: rgba(5, 5, 5, 0.363);
+	display: block;
+}
+
+#capa_infos img.logo {
+	margin-top: 65px;
+	margin-bottom: 30px;
+	width: 450px;
+}
+
+#capa_infos svg.a {
+	margin-top: -3px;
+	margin-right: 2px;
+}
+
+#capa_infos strong {
+	margin-right: 8px;
+}
+
+#capa_infos svg.b {
+	margin-top: -3px;
+	margin-right: 6px;
+	margin-left: 4px;
+}
+
+#capa_infos p.text {
+	width: 450px;
+	margin-bottom: 20px;
+	color: #fff;
+	overflow-wrap: break-word;
+	margin-top: 2px;
+}
+
+.custom {
+	background-color: rgba(20, 20, 20, 0.336);
+	color: #fff;
+	margin-left: 5px;
+}
+
+.custom:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.fundo {
+	background-color: rgba(119, 119, 119, 0.068);
+}
+
+.al {
+	margin-top: 2px;
+}
+
+.al:hover {
+	opacity: 0.8;
+}
+
+.pl {
+	margin-top: 50px;
+	color: #fff;
+}
+
+.barra {
+	color: #fff;
+	padding-top: 0px;
+}
+
+.barra:hover {
+	color: #fff;
+	opacity: 0.8;
+	border-color: #fff;
+}
+
+#barra2 {
+	color: #fff;
+	padding-top: 0px;
+}
+
+#barra2:hover {
+	color: #fff;
+	opacity: 0.8;
+	border-color: #fff;
+}
+
+#barra2 svg {
+	margin-left: 5px;
+}
+
+.n {
+	margin-left: 0px;
+}
+
+.ie {
+	background-color: rgba(51, 51, 51, .6);
+	border: 3px #dcdcdc;
+	border-left-style: solid;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 2.4vw;
+	padding: 0.5vw 3.5vw 0.5vw 0.6vw;
+	margin-left: 95%;
+	margin-top: -50px;
+}
+
+.ie:hover {
+	opacity: 0.8;
+}
