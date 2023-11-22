@@ -1,0 +1,39 @@
+body{background-color:lightblue/*cor do fundo*/}
+
+div{background-color: black; /*cor do fundo*/ color: cyan;/*cor do texto - ciano*/
+ white-space:pre;
+ text-align:left; 
+ }
+h2{ color: blue; /*cor do texto - azul*/
+  white-space:pre;
+  float:left;
+  text-align:left; }
+ 
+img{float:left;}
+ 
+table{ background-color: lightgreen; /*cor do fundo*/ }
+
+h3 {background-color: black; /*cor do fundo*/  color: white; /*cor do texto - branco*/
+  text-align:center}
+  
+a { color: cyan;/*cor do texto - ciano*/ }
+  
+b {color :white; text-align:left;  }
+  
+video{ margin: auto;
+    display: block;}
+	
+h4 {background-color: black;
+    text-align: center;
+	font-size:25px;
+	margin:10px;}
+
+.form{color: blue; font-size:17px;}
+
+.form2{color: black; font-size:20px;}
+	
+form{background-color:gray;
+text-align:center;}
+
+.preto{background-color:black; color:black;}
+
