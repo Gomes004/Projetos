@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início – Netflix</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/estilo4.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="io" class="navbar navbar-expand-md preto">
+        <div class="container-fluid">
+          <button class="navbar-toggler color" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img class="im" src="img/netflix.jpg" alt="Netflix" width="80" height="50">
+              </li>
+              <li class="nav-item">
+                <a class="nav f1" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav f1" href="#">Séries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav f1" href="#">Bombando</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav f1" href="#">Minha lista</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav f1" href="#">Navegar por idioma</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-sm barra" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+              </button>
+              <button class="btn btn-sm barra" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                </svg>
+              </button>
+              <button id="barra2" class="btn btn-sm n" type="submit">
+                <img src="img/av2.png" alt="" width="25" height="25">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                  class="bi bi-caret-down-fill in" viewBox="0 0 16 16">
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="capa" class="container-fluid">
+      <div>
+        <div class="row" id="capa_infos">
+          <div class="col-12">
+            <img class="logo" src="img/logov.png" alt="" height="40%">
+            <p class="text">Dominic Toretto e sua equipe correm para acabar com uma
+              ameaça à civilização mundial liderada por um criminoso de elite,
+              que por acaso é irmão de Dom.</p>
+            <button type="button" class="btn btn-light btn-sm"><svg xmlns="http://www.w3.org/2000/svg"     width="25" height="25" fill="currentColor" class="bi bi-play-fill a" viewBox="0 0 16 16">
+                <path
+                  d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+              </svg><strong>Assistir</strong></button>
+            <button type="button" class="btn btn-sm custom"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-info-circle b" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg><strong>Mais informações</strong></button>
+            <img class="ie" src="img/id.png" alt="">
+          </div>
+          <div class="container-fluid pl">
+            <div class="row">
+              <div class="col">
+                <strong>Reality shows, talk shows e programas de variedades</strong>
+              </div>
+            </div>
+          </div>
+          <div class="card-group al">
+            <div class="card">
+              <img src="img/jogo2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="img/casamento.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="img/sunset.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="img/amor.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="img/iron2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img src="img/sabotador.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
